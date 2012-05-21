@@ -69,8 +69,6 @@ namespace DataBase
 	
 	/* перевод строки в верхний регистр */
 	string toUpper(const string& str);
-	/* проверка, является лексема типа @type - операцией */
-	bool isOperation(TypeOfLex type); 
 		
         
         
