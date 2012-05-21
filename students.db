@@ -1,0 +1,35 @@
+#HEAD
+$FIELDS 3
+$RECORDS 4
+
+#FIELDS
+$NAME: name
+$TYPE: TEXT
+
+$NAME: age
+$TYPE: LONG
+
+$NAME: phone
+$TYPE: TEXT
+
+#RECORDS
+#ID 0
+Petya
+19
+01
+
+#ID 1
+Vasya
+17
+02
+
+#ID 2
+Masha
+17
+03
+
+#ID 3
+Helen
+19
+*100#
+
