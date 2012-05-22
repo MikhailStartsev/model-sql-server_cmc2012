@@ -20,10 +20,10 @@ int main(int argc, char* argv[])
 	string logname = "log.txt";
 	char usage[] = "Usege: sqlserver [options]\n"
 	"Options:\n"
-	"-h | --help | -o | --out - show this help message\n"
+	"-h | --help - show this help message\n"
 	"-p <port> | --port <port> - start server at port <port>\n"
 	"-l | --log - enable server logging; default log file is log.txt\n"
-	"-lf <filename> | --logfile <filename> - set log filename as <filename>; automatically enables logging\n";
+	"-lf <filename> | --logfile <filename> | -o <filename>| --out <filename> - set log filename as <filename>; automatically enables logging\n";
 	
 	if (argc >= 2 && (!strcmp(argv[1], "-h") || !strcmp(argv[1], "--help")))
 	{
