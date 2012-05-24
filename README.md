@@ -29,7 +29,7 @@ g++ *.cpp -o sqlserver -pthread
 
 g++ server.cpp dbms.cpp liker.cpp analizer.cpp helpfunc.cpp main.cpp -o sqlserver -pthread
 
--pthread "подклюачет" библиотеу pthread - реализацию потоков выполнения Posix
+-pthread "подключает" библиотеу pthread - реализацию потоков выполнения Posix
 
 По желанию можно добавить -ansi.
 А вот -Wall и -pedantic писать не стоит. Последний - из-за использования типа 
